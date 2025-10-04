@@ -1,0 +1,108 @@
+- Route All Tower créé par moi Majora_Speed 
+- Route conçu pour la 1.0.0 
+- Timer fini après avoir fini la cutscene de la la derniere tower
+
+- Great Sky Island 1:
+  - Wings : 
+     notes: Dup jusqu'a 22 puis title
+     icon: chest
+     movements: 
+      - [379,1500,-1620]
+      - [385.75,1500,-1649.75]
+      - [379.8125,15000,-1690.4375]
+  - Temple Of Time:
+     notes: Wing FLip et faire Early Sheild sans péter l'épée de légende et dup la rusty comme en any% scan ToT
+     icon: shrine
+     movements: 
+      - [429.125,1500,-1684.25]
+      - [384.5,1500,-1438]
+      - [417,1500,-1354]
+      - [452.5625,1500,-1310.25]
+      - [452.75,1500,-884.0625]
+  # Warping to travel medallion. Order of the coordinates are the same as you would enter with the `coord` property
+  - _Warp::TravelMedallion<379.8125,15000,-1690.4375>:
+     comment: je mets travel médaillon pour le respawn pour FDC EA
+  - _Shrine::Gutanbac:
+     icon: Ascend
+     notes: une fois dans le shrine on lance la rusty on recup la rusty Dzuggle comme any% et on kill Billy puis faire l'as via overload puis finish Ascend
+  - _Shrine::Inisa:
+     icon: Fuse
+     movements:
+      - [733.8125,1500,-1351.4375]
+      - [706,1500,-1351]
+      - [26.07, 1527.75, -1503.60]
+     notes: Faire EB version EA puis enter fuse et finish fuse
+     comment: Dans fuse recup espadon et dup 10 bombs et dup 4 sheild
+  - _Shrine::Ukouh:
+     icon: UH
+     notes: Quick FUH/Roms FUH 
+  - _Shrine::Nachoyah:
+     icon: RECALL
+     notes: ToT  puis tp Recall fuse bomb et finir recall
+     movements: 
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [367.4375,1500,-1750.5]
+      - [389.63, 2417.91, -1661.45]
+  - _Warp::Shrine::Ukouh
+  - Great Sky Island:
+     icon: TOUR
+     movements:
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [453.625,1500,-635.75]
+     notes: Finir GSI
+- Cart:
+  - _Warp::Shrine::Nachoyah:
+     color: red
+  - Fairy Island:
+     notes: En descendant de Recall prendre le chest avec la large zonai charge puis allée a l'ile des fées 
+     comment: Dup 15 charges et faire un Pocket Rocket 
+     icon: fairy
+     movements:
+      - [499.5,1500,-1620]
+      - [936,1500,-2139]
+  - Cart:
+     notes: Partir vers draconis et use le dispenser
+     icon: Dispenser
+     coord: [1384,1500,-3246]
+- Tower:
+  - _Warp::Shrine::Ukouh:
+     notes: Dup 20 cart et 4 sticks et refaire un pocket rocket avant de tp
+     color: purple
+  - Paraglider quest:
+     icon: quest
+     movements:
+      - [-254.5,150,150]
+      - [-341.5,150,849]
+      - [-253.875,150,151.625]
+     notes: Faire la quête de paraglider
+  - _Tower::LookoutLanding
+  - _Tower::HyruleField:
+     notes: Redescendre et cart slide vers le Sud Ouest
+  - _Tower::PoplaFoothills:
+     notes: Cart slide apres etre sur la terre ferme et liberer l'ouvrier pour use la tower
+  - _Tower::SahasraSlope:
+     notes: Cart slide et clip avec un stick en haut
+  - _Korok::RabellaWetlands:
+     notes: cart slide puis clip la tour 
+  - _Tower::MountLanayru:
+     notes: Cart slide vers tower puis clip la tower
+  - _Tower::UplandZorana:
+     notes: Cart slide cart slide puis nettoyer la tour avec des fruits d'eau
+  - _Tower::UlriMountain:
+     notes: Cart slide et tuer le monstre puis redonner le trucc a l'ouvrier
+  - _Tower::EldinCanyon:
+     notes: Cart slide puis clip la tower
+  - _Tower::ThyphloRuins:
+     notes: Cart slide vers tower puis enlever le rocher dessus puis clip
+  - _Tower::PikidaStonegrove:
+     notes: Cart slide vers tower 
+  - _Tower::RosproPass:
+     notes: Cart slide tower
+  - _Tower::LindorsBrow:
+     notes: Cart Slide vers tower
+  - _Tower::GerudoHighlands:
+     notes: Cart slide et clip tower
+  - _Tower::GerudoCanyon:
+     notes: Cart slide tower et time 
